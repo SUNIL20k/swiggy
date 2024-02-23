@@ -1,0 +1,439 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 240px;
+    height: 270px;
+    margin: 18px;
+    border-radius: 15px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.box:hover{
+    transform: scale(0.96);
+}
+.food-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 0px;
+}
+.bi-star-fill{
+    font-size: 12px;
+    background-color: rgb(0, 185, 0);
+    color: white;
+    padding: 0px 3px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    border-radius: 50%;
+}
+.details{
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.hotel{
+    margin: 0px;
+    white-space: nowarp;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rating{
+    margin: 0px;
+    white-space: nowarp;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.place{
+    margin: 0px;
+    white-space: nowarp;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.location{
+    margin: 0px;
+    white-space: nowarp;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Applayout{
+    width: auto;
+    /* background-color: black; */
+}
+.Navbar{
+    width: auto;
+    height: 80px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+background: #ffffff;
+box-shadow:  13px 13px 59px #e9e9e9,
+             -13px -13px 59px #ffffff;
+             /* position: fixed;
+             top: ; */
+}
+
+.mainbody{
+    width:1150px ;
+    margin: 0px auto;
+}
+.mainbody>h1{
+    margin-left: 34px;
+    font-size: 28px;
+}
+
+.body{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 25px;
+}
+.Scroll1{
+    width: auto;
+    height: 300px;
+    background-color: darkkhaki;
+}
+.Scroll2{
+    width: auto;
+    height: 400px;
+    background-color: rgb(189, 107, 189);
+}
+
+.logo{
+    width: 34px;
+    height: 50px;
+    padding-left: 20px;
+}
+.log-name{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.other{
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+}
+.other:hover{
+    color: #FFAE13;
+    border-bottom: 2px solid #FFAE13;
+}
+.bi-chevron-down{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #FFAE13;
+    margin-left: 15px;
+}
+.nav-name{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-list>li{
+    width: 100px;
+    padding: 14px;
+    font-size: 16px;
+    /* margin: 10px 35px ; */
+    font-weight: 500;
+    color: rgb(87, 85, 85);
+}
+.nav-list>li:hover{
+    color: #FFAE13;
+}
+.sup{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFAE13;
+}
+.bi-percent{
+    font-size: 18px;
+}
+.bi-patch-question{
+    font-size: 18px;
+}
+.bi-person{
+    font-size: 20px;
+}
+.bi-cart2{
+    font-size: 18px;
+}
+
+.filter-container{
+    width: 100%;
+    height: 50px;
+    padding: 0px 18px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.filter-btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: white;
+    color: grey;
+    border: none;
+    border: 2px solid grey;
+}
+.Shimmerbody{
+    width: 1150px ;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxShimmer{
+    width: 240px;
+    height: 270px;
+    padding-top: 0px;
+    margin: 18px;
+    /* margin-left: 28px; */
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.imgShimmer{
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(189, 189, 189);
+}
+.restoShimmer{
+    width: 120px;
+    padding: 8px 10px;
+    margin: 20px;
+    background-color: rgb(189, 189, 189);
+}
+.RatingShimmer{
+    width: 150px;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: rgb(189, 189, 189);
+}
+.Cuisinesshimmer{
+    width: 70px;
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: rgb(189, 189, 189);
+}
+
+.search{
+    width: 350px;
+    height: 50px;
+    padding: 0px 18px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.search>input{
+    width: 250px;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.Search-btn{
+    padding: 9px 20px;
+    background-color: #FC8019;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.top-box{
+    width:300px ;
+    /* margin: 0px 0px; */
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+.top-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Top-Card{
+    width:1059px ;
+    height: 250px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    margin-top: 25px;
+}
+
+.Top-Card::-webkit-scrollbar{
+    display: none;
+}
+.top-heading{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.mainbody>h1{
+    font-size: 28px;
+    padding: 0px 10px;
+}
+.Main-menu{
+    width: 850px;
+    height: 160px;
+    border-top: 2px solid rgb(196, 193, 193);
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    position: relative;
+    color: rgb(95, 95, 95);
+}
+.g-box{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid green;
+    margin-bottom: 0px;
+}
+.g-dot{
+     margin: 0px;
+     width: 10px;
+     height: 10px;
+     background-color: green;
+     border-radius: 10px;
+}
+.menu-box-1{
+     padding: 20px 30px;
+}
+.menu{
+    margin: 5px 0px;
+}
+.cost{
+    margin: 5px 0px;
+} 
+.menu-box-1>p{
+    margin: 5px 0px;
+}
+.menu-box-2{
+    margin-right: 20px;
+}
+.menu-img{
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+.add-btn{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 20px white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 32px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+    background-color: white;
+    border: 1px solid rgb(78, 78, 78);
+}
+.link-Search{
+    text-decoration: none;
+    width: 100px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(87, 85, 85);
+}
+.link-Search:hover{
+    color: #FFAE13;
+}
+
+.item-body{
+    width: 1050px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+.item-body::-webkit-scrollbar{
+    display: none;
+}
+.item-card{
+    width: 140px;
+    height: 180px;
+    margin: 0px 15px;
+    z-index: -10px;
+    padding-left: 5px;
+}
+.item-img{
+      width: 140px;
+      height: 180px;
+      object-fit: cover;
+      z-index: -10px;
+}
+.itemheading{
+    width: 1000px;
+    padding-left: 20px;
+    /* padding: 0px 20px; */
+    z-index: -1;
+    /* margin-left: 20px; */
+    /* background-color: aquamarine; */
+}
+.link-menu{
+    text-decoration: none;
+    color: black;
+}
+
+.item-shimmer-body{
+    width: 1050px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+.item-shimmer-body::-webkit-scrollbar{
+    display: none;
+}
+.item-shimmer-box{
+    width: 140px;
+    height: 180px;
+    margin: 0px 15px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.item-shimmer-img{
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0px 0px;
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+} 
